@@ -1,0 +1,251 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    font-size: 16px; /* Tamanho padrão das labels */
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#task, #nome, #valor, #quantidade, #vendedor {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+section, .container {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    #produto, #nome, #valor, #quantidade, #vendedor {
+        width: 100%;
+    }
+
+    button {
+        margin-top: 15px;
+    }
+
+    label {
+        font-size: 14px; /* Tamanho menor para telas pequenas */
+    }
+
+}
+
+/* Utilizando vw para definir o tamanho da fonte com base no tamanho da tela */
+label {
+    font-size: calc(14px + 0.5vw);
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    font-size: 16px; /* Tamanho padrão das labels */
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#produto, #nome, #valor, #quantidade, #vendedor {
+    width: 80%;,
+    padding: 8px;
+    box-sizing: border-box;
+}
+.inputs {
+    width: 80%;,
+padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+section, .container {
+    text-align: center;
+}
+
+@media(min-width: 600px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    #produto, #nome, #valor, #quantidade, #vendedor {
+        max-width: 60%;
+    }
+    #nome, #valor, #quantidade, #vendedor {
+        max-width: 20%;
+    }
+
+    button {
+        margin-top: 15px;
+    }
+
+    label {
+        font-size: 14px; /* Tamanho menor para telas pequenas */
+    }
+
+}
+
+
+/* Utilizando vw para definir o tamanho da fonte com base no tamanho da tela */
+label {
+    font-size: calc(14px + 0.5vw);
+}
+
+div {
+    text-align: center;
+}
+
+#lista {
+    list-style: none;
+    padding: 0;
+}
+
+.elemento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Adiciona uma linha divisória entre os itens da lista */
+    padding-bottom: 5px;
+}
+
+.botaoExcluir {
+    margin-left: 10px;
+}
+
+#lista li::before {
+    content: '\2022';
+    margin-right: 10px;
+}
+
+.containerLista {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o container na página */
+}
+
+
+
+
+
+
+
+

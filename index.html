@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generic Industries - Sales</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.1/css/dataTables.dataTables.css" />
+
+</head>
+
+<body>
+<header>
+    <div>
+        <h2>Generic Industries - Sales</h2>
+    </div>
+</header>
+
+<!--<div class="container">-->
+<!--    <label for="buscar-data">Data</label>-->
+<!--    <input type="date" name="buscar-data" id="buscar-data">-->
+
+<!--    <label for="buscar-vendedor" id="label-buscar-vendedor">Vendedor</label>-->
+<!--    <input type="text" name="buscar-vendedor" id="buscar-vendedor">-->
+
+<!--    <button id="buscar-venda">Buscar</button>-->
+<!--</div>-->
+
+<div class="container">
+    <table id="test">
+        <thead>
+        <tr>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Vendedor</th>
+            <th>Total</th>
+        </tr>
+        </thead>
+        <tbody id="tabela-vendas">
+        <tr class="venda">
+            <td class="info-data"></td>
+            <td class="info-hora"></td>
+            <td class="info-vendedor"></td>
+            <td class="info-total"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container">
+    <button class="btn-azul" onclick="window.location.href='cadastro.html'">Nova Venda</button>
+    <button class="btn-azul" onclick="window.location.href='lista_compras.html'">Lista de compras</button>
+    <button class="btn-azul" onclick="window.location.href='lista_produtos.html'">Visualizar Produtos</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.0.1/js/dataTables.js"></script>
+
+<script src="assets/js/tabelaListarVenda.js"></script>
+</body>
+
+</html>
